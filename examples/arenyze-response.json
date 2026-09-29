@@ -1,0 +1,31 @@
+{
+  "_fixture_note": "SYNTHETIC TEST FIXTURE assembled from documented fields; not a live API response or real player.",
+  "player": {"nameOnPlatform": "Synthetic.Player", "platformType": "uplay", "platformFamilies": "pc"},
+  "stats": {
+    "platform_families_full_profiles": [{
+      "platform_family": "pc",
+      "profile_id": "synthetic-player-id",
+      "board_ids_full_profiles": [{
+        "board_id": "ranked",
+        "full_profiles": [{
+          "season_id": 43,
+          "profile": {"rank": 18, "rank_points": 3300, "max_rank": 23, "max_rank_points": 3800, "update_time": "2026-09-23T12:00:00Z"},
+          "season_statistics": {"kills": 150, "deaths": 100}
+        }]
+      }]
+    }]
+  },
+  "account": {"level": 100, "profiles": [{"platformType": "uplay", "nameOnPlatform": "Synthetic.Player"}]},
+  "seasons": {"data": {
+    "metadata": {"currentSeason": 43},
+    "segments": [
+      {"type": "season", "attributes": {"season": 42, "gamemode": "pvp_ranked", "platform": "pc", "region": null}, "metadata": {"shortName": "Y11S2"}, "stats": {"kdRatio": {"value": 4.2}, "rankPoints": {"value": 5000}}},
+      {"type": "season", "attributes": {"season": 43, "gamemode": "pvp_ranked", "platform": "pc", "region": null}, "metadata": {"shortName": "Y11S3"}, "stats": {"kdRatio": {"value": 1.5}, "rankPoints": {"value": 3800}}}
+    ]
+  }},
+  "history": {"data": {"history": {"data": [
+    ["2026-09-22T12:00:00Z", {"value": 3800, "metadata": {"rank": "EMERALD II", "imageUrl": "https://example.com/synthetic-emerald.png"}}],
+    ["2026-09-23T12:00:00Z", {"value": 3300, "metadata": {"rank": "PLATINUM II", "imageUrl": "https://example.com/synthetic-platinum.png"}}]
+  ]}}},
+  "meta": {"included": ["stats", "account", "seasons", "history"], "partial": false, "errors": {}}
+}

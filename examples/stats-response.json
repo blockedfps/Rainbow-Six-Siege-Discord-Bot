@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-23T14:10:00Z",
+  "profile": {
+    "username": "Demo.Player",
+    "platform": "pc",
+    "season": "Beispielsaison",
+    "kd": 1.42,
+    "kd_scope": "Ranked · aktuelle Saison",
+    "rank": {"name": "Emerald II", "points": 3800, "icon_url": null}
+  },
+  "matches_status": "available",
+  "matches": [
+    {"id": "demo-005", "played_at": "2026-09-23T14:00:00Z", "map": "Clubhouse", "mode": "Ranked", "result": "win", "kills": 9, "deaths": 4, "assists": 2, "score": "4:2"},
+    {"id": "demo-004", "played_at": "2026-09-23T13:20:00Z", "map": "Oregon", "mode": "Ranked", "result": "loss", "kills": 5, "deaths": 7, "assists": 3, "score": "3:5"},
+    {"id": "demo-003", "played_at": "2026-09-23T12:45:00Z", "map": "Bank", "mode": "Ranked", "result": "win", "kills": 8, "deaths": 3, "assists": 1, "score": "4:1"},
+    {"id": "demo-002", "played_at": "2026-09-23T12:10:00Z", "map": "Chalet", "mode": "Ranked", "result": "win", "kills": 7, "deaths": 5, "assists": 4, "score": "5:3"},
+    {"id": "demo-001", "played_at": "2026-09-23T11:30:00Z", "map": "Kafe Dostoyevsky", "mode": "Ranked", "result": "loss", "kills": 6, "deaths": 6, "assists": 2, "score": "2:4"}
+  ]
+}
